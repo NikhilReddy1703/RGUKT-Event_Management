@@ -1,0 +1,52 @@
+.create-event-form {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-event-form h1 {
+    font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  }
+  
+  .create-event-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-event-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .create-event-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .create-event-form button {
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .create-event-form button:hover {
+    background-color: #0056b3;
+  }
+  

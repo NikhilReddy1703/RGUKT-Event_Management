@@ -1,0 +1,105 @@
+/* frontend/src/components/AdminPostLogin.css */
+.events-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  }
+
+   h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: math;
+    line-height: 1.2; 
+  }
+  
+.admin {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  border-radius: 8px;
+}
+
+  .event {
+    background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  }
+  
+  .event:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .event h2 {
+    font-size: 1.8em;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .event p {
+    font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+  }
+  
+  .event button {
+    display: inline-block;
+  padding: 10px 15px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  }
+  
+  .event button:hover {
+    background-color: #0056b3;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}

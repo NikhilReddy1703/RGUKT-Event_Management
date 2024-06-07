@@ -1,0 +1,110 @@
+/* frontend/src/components/StudentDashboard.css */
+/*.student-dashboard {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  }
+  
+  .student-dashboard h1 {
+    font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  }
+  
+  .student-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .student-dashboard li {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-dashboard li p {
+    margin: 5px 0;
+  }
+  
+  .student-dashboard button {
+    padding: 10px 20px;
+  font-size: 1.1em; 
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  }
+  
+  .student-dashboard button:hover {
+    background-color: #0056b3;
+  }
+  */
+  /* src/StudentDashboard.css *//* src/StudentDashboard.css */
+.student-dashboard {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+.event-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-time, .event-deadline {
+  font-size: 18px;
+  color: #555;
+}
+
+.register-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.registration-closed {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}

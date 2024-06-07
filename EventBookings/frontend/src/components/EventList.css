@@ -1,0 +1,41 @@
+.event-list {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .event-list h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .event-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .event-list li {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .event-list li p {
+    margin: 5px 0;
+  }
+  
+  .event-list button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .event-list button:hover {
+    background-color: #218838;
+  }
